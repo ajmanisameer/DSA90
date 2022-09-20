@@ -1,0 +1,21 @@
+Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function to the length of an input.
+Space complexity of an alorithm quantifies the the space and memory taken by an algorithm to run as a function of the length of the input.
+
+## Total time depends on the lenght of an array. If the length od the aarry will increase the tome of execution will also increase.
+
+O (Big-O) Notation - To denote asymptomatic upper bound we use O-notation. 
+Ω (Big-Omega) Notation notation - To denote asymtomatic lower bound of a fn.
+Θ (Big-Theta) Notation - To denote asymtomatic tight bound; denotes an upper and a lower bound of a function
+
+In most cases we will mostly consider O-notation because it will give us an upper limit of the execition time i.e the executuin time in the worst case.
+
+# O(n^2) OR O(N)sq. - Quadratic - every elem in a collection needs to be compared to every other element. Two nested loop
+# O(1) - Constant - no loops
+# O(log N)
+# O(n) - Linear - for loops, while loops thriugh n items
+# O(n log(n)) - 
+# O(2^n) Exponential - recursive algo which solves a prob of size N
+# O(n!) Factorial - Adding a loop for every elem
+- iterating through half a collection is still O(n)
+- Two seperate collection: O(a * b)
+
