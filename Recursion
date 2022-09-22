@@ -1,1 +1,26 @@
+Function calls itself directly or indirectly 
+
+A RECURSIVE fn solves a particular problem by calling a copy of itself and solving smaller subproblems of the original problem
+
+Terminates when the base case becomes true
+
+# Downside
+Recursive fucntion uses more memory, bc the recursive fn adds to the stack with each recursive call, and keeps the values there until the call is finished
+A recursive fn uses LIFO struture just like a stack
+
+Problems to solve - Tower of Hanoi(TOH) / Inorder/ Preorder/ Postorder/ DFS of Graphs etc
+
+
+printFun(test)
+    {
+        if (test < 1)
+            return;
+        else {
+            document.write(test + " ");
+            printFun(test - 1); // statement 2
+            document.write(test + " ");
+            return;
+        }
+    }
+
 
